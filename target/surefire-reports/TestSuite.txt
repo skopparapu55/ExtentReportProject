@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 36.105 s <<< FAILURE! - in TestSuite
+com.qa.testcases.LoginTest.verifyLogin[richa, swetha](2)  Time elapsed: 0.83 s  <<< FAILURE!
+java.lang.AssertionError: Title does not match expected [Zero - Account Summary] but found [Zero - Log in]
+	at com.qa.testcases.LoginTest.verifyLogin(LoginTest.java:33)
+
+com.qa.testcases.PayBillsTest.verifyPayBills  Time elapsed: 1.815 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.qa.testcases.PayBillsTest.verifyPayBills(PayBillsTest.java:35)
+
